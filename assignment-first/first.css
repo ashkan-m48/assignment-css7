@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width:99vw;
+    background-color: rgb(234, 214, 187);
+    
+}
+
+.top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.middle-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.down{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+   
+}
+.down-2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+.box{
+    width:16rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.inner-box{
+    width:10rem ;
+    height: 10rem;
+    background-color: rgb(182, 127, 233);
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 3.5rem;
+    z-index: 20;
+}
+
+.inner-box-2{
+    width:10rem ;
+    height: 10rem;
+    background-color: rgb(214, 201, 225);
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 3.5rem;
+    z-index: 10;
+}
+
+.first .inner-box:hover{
+    transform: rotate(30deg);
+    transition: all 1s ease;
+}
+
+.sec .inner-box:hover{
+    transform: scale(1 , 0.7);
+    transition: all 1s ease;
+}
+
+.third .inner-box:hover{
+    transform: scale(0.7 ,1);
+    transition: all 1s ease;
+}
+
+.fourh .inner-box:hover{
+    transform: scale(2.5);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.fifth .inner-box:hover{
+    transform: scale(2 , 1);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.sixth .inner-box:hover{
+    transform: translate(60px , 0);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.seventh .inner-box:hover{
+    transform: translate(60px , 40px);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.eighth .inner-box:hover{
+    transform: skew(0 ,40deg);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.ninth .inner-box:hover{
+    transform: skew(40deg ,0);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.tenth .inner-box:hover{
+    transform: scale(1 , 2.5);
+    transition: all 1s ease;
+    opacity: 0.5;
+
+}
+
+
+.eleventh .inner-box:hover{
+    transform: translate(0 , 70px);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.tweleth .inner-box:hover{
+    transform:skew(0,45deg) scale(1.5);
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.thirteenth .inner-box:hover{
+    transform: perspective(200px)  rotateY(45deg);
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.fourteenth .inner-box:hover{
+    transform: perspective(200px)  rotateX(45deg);
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.fiveteenth .inner-box:hover{
+    transform-origin: top right;
+    transform: rotate(45deg);
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.sixteenth .inner-box:hover{
+    transform: rotate(45deg);
+    transform-origin: bottom left;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.seventeenth .inner-box:hover{
+    transform: perspective(200px)  rotateX(30deg);
+    transform-origin: bottom;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.eighteenth .inner-box:hover{
+    transform: perspective(600px)  rotateX(60deg);
+    transform-origin: top;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.nineteenth .inner-box:hover{
+    transform: perspective(200px)  rotateY(30deg);
+    transform-origin: left;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.twentith .inner-box:hover{
+    transform:scale(2 , 1);
+    transform-origin: left;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.t-first .inner-box:hover{
+    transform:scale(2 , 1);
+    transform-origin: right;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.t-second .inner-box:hover{
+    transform:scale(2 , 2);
+    transform-origin: bottom left;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+
+.t-third .inner-box:hover{
+    transform:scale(2 , 2);
+    transform-origin: top right;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.t-fourth .inner-box:hover{
+    transform:perspective(400px) rotateY(60deg);
+    transform-origin:right;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.t-fifth .inner-box:hover{
+    transform:scale( 1 , 2);
+    transform-origin:top;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.t-sixth .inner-box:hover{
+    transform:scale( 1 , 2);
+    transform-origin:bottom;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
